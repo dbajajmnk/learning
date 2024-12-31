@@ -6,7 +6,7 @@ console.log("Hello World");
 var myDetail = {name:"Deepak"};
 var firstName = "Deepak";
 console.log(typeof firstName);
-firstName=10;
+firstName=10; // Type change not possible
 console.log(myDetail.name);
 //console.log(myDetail.firstName); not possible in typescript, compile time error 
 var sum = 10 + "10";
