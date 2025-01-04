@@ -166,9 +166,9 @@ let userData = fetchData();
 
 
 /******************************************     Practics  ********************************/
-numberLiteral = 50  //Invalid
-numberLiteral = 20  //valid
-  cat = {} //Ivalid
+//numberLiteral = 50  //Invalid
+//umberLiteral = 20  //valid
+  //cat = {} //Ivalid
  /* dog = {   //invalid : breed1 is missing 
     name:"Lusy",
     age :2,
