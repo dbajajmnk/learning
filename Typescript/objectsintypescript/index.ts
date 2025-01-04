@@ -23,14 +23,16 @@
 //  let sonika:Expert = {name:"Sonika",experience:2,subjects:["Python","JavaScript"]}
 //  let kapil:Expert = {name:"Sonika",experience:2,subjects:["Python","JavaScript"]}
 
+type Address ={houseNo:string, street:string,city:string,state:string, country:string,pin:number}
+type Subject = {name:string,level:string}
+
+type Expert = {name:string,experience:number, subjects?:Subject[],address?:Address}
+
  let deepak:Expert= {name:"Deepak",experience:15,subjects:[{name:"Python",level:"JavaScript"}],address:{houseNo:"M-1401", street:"Abc", city:"Moonak",state:"Haryana",country:"India",pin:148033}}
- let sonika:{name:"Deepak",experience:15,subjects:[{name:"Python",level:"JavaScript"}]}
- let kapil:{name:"Deepak",experience:15}
+ let sonika:Expert = {name:"Deepak",experience:15,subjects:[{name:"Python",level:"JavaScript"}]}
+ let kapil:Expert={name:"Deepak",experience:15}
 
- type Address ={houseNo:string, street:string,city:string,state:string, country:string,pin:number}
- type Subject = {name:string,level:string}
 
- type Expert = {name:string,experience:number, subjects?:Subject[],address?:Address}
 
  
 
