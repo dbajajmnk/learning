@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{683FD5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "languages\CSharp\HelloWorld\HelloWorld.csproj", "{90CF84A4-54D2-4B0B-81A6-148877565AB7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basics", "languages\CSharp\Basics\Basics.csproj", "{2E3AC84C-9EA0-45C8-B50A-2448FBDF8A5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,18 @@ Global
 		{90CF84A4-54D2-4B0B-81A6-148877565AB7}.Release|x64.Build.0 = Release|Any CPU
 		{90CF84A4-54D2-4B0B-81A6-148877565AB7}.Release|x86.ActiveCfg = Release|Any CPU
 		{90CF84A4-54D2-4B0B-81A6-148877565AB7}.Release|x86.Build.0 = Release|Any CPU
+		{2E3AC84C-9EA0-45C8-B50A-2448FBDF8A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E3AC84C-9EA0-45C8-B50A-2448FBDF8A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E3AC84C-9EA0-45C8-B50A-2448FBDF8A5E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2E3AC84C-9EA0-45C8-B50A-2448FBDF8A5E}.Debug|x64.Build.0 = Debug|Any CPU
+		{2E3AC84C-9EA0-45C8-B50A-2448FBDF8A5E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2E3AC84C-9EA0-45C8-B50A-2448FBDF8A5E}.Debug|x86.Build.0 = Debug|Any CPU
+		{2E3AC84C-9EA0-45C8-B50A-2448FBDF8A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E3AC84C-9EA0-45C8-B50A-2448FBDF8A5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E3AC84C-9EA0-45C8-B50A-2448FBDF8A5E}.Release|x64.ActiveCfg = Release|Any CPU
+		{2E3AC84C-9EA0-45C8-B50A-2448FBDF8A5E}.Release|x64.Build.0 = Release|Any CPU
+		{2E3AC84C-9EA0-45C8-B50A-2448FBDF8A5E}.Release|x86.ActiveCfg = Release|Any CPU
+		{2E3AC84C-9EA0-45C8-B50A-2448FBDF8A5E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,5 +52,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{683FD511-F176-D19A-2E84-A7FCEC12FB0B} = {1C2492E6-07D6-3755-945F-6FD68363DF81}
 		{90CF84A4-54D2-4B0B-81A6-148877565AB7} = {683FD511-F176-D19A-2E84-A7FCEC12FB0B}
+		{2E3AC84C-9EA0-45C8-B50A-2448FBDF8A5E} = {683FD511-F176-D19A-2E84-A7FCEC12FB0B}
 	EndGlobalSection
 EndGlobal
