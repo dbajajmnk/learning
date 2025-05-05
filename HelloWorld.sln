@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operatiosn", "languages\CSh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Format", "languages\CSharp\strings\Format\Format.csproj", "{D8B13A88-9B03-4960-B33D-D26D21F15869}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpolation", "languages\CSharp\strings\Interpolation\Interpolation.csproj", "{EFE2109F-109D-47CD-AD7A-53CC2F4D0CBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +105,18 @@ Global
 		{D8B13A88-9B03-4960-B33D-D26D21F15869}.Release|x64.Build.0 = Release|Any CPU
 		{D8B13A88-9B03-4960-B33D-D26D21F15869}.Release|x86.ActiveCfg = Release|Any CPU
 		{D8B13A88-9B03-4960-B33D-D26D21F15869}.Release|x86.Build.0 = Release|Any CPU
+		{EFE2109F-109D-47CD-AD7A-53CC2F4D0CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFE2109F-109D-47CD-AD7A-53CC2F4D0CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFE2109F-109D-47CD-AD7A-53CC2F4D0CBD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EFE2109F-109D-47CD-AD7A-53CC2F4D0CBD}.Debug|x64.Build.0 = Debug|Any CPU
+		{EFE2109F-109D-47CD-AD7A-53CC2F4D0CBD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EFE2109F-109D-47CD-AD7A-53CC2F4D0CBD}.Debug|x86.Build.0 = Debug|Any CPU
+		{EFE2109F-109D-47CD-AD7A-53CC2F4D0CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFE2109F-109D-47CD-AD7A-53CC2F4D0CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFE2109F-109D-47CD-AD7A-53CC2F4D0CBD}.Release|x64.ActiveCfg = Release|Any CPU
+		{EFE2109F-109D-47CD-AD7A-53CC2F4D0CBD}.Release|x64.Build.0 = Release|Any CPU
+		{EFE2109F-109D-47CD-AD7A-53CC2F4D0CBD}.Release|x86.ActiveCfg = Release|Any CPU
+		{EFE2109F-109D-47CD-AD7A-53CC2F4D0CBD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -116,5 +130,6 @@ Global
 		{5E473CC3-8E89-9CA1-5D97-F2F31AE5549C} = {683FD511-F176-D19A-2E84-A7FCEC12FB0B}
 		{F38635D4-9C3E-4309-9833-32EA275CEE5A} = {5E473CC3-8E89-9CA1-5D97-F2F31AE5549C}
 		{D8B13A88-9B03-4960-B33D-D26D21F15869} = {5E473CC3-8E89-9CA1-5D97-F2F31AE5549C}
+		{EFE2109F-109D-47CD-AD7A-53CC2F4D0CBD} = {5E473CC3-8E89-9CA1-5D97-F2F31AE5549C}
 	EndGlobalSection
 EndGlobal
