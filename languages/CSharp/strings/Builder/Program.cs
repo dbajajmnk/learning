@@ -1,4 +1,5 @@
 ﻿/**
+System.Text
 Mutuable 
 In Cosntructor you can pass intial Value and Capacity
 and print the capacity and lenth as well
